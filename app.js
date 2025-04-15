@@ -29,7 +29,7 @@ const updateTaskList = () => {
                          class="edit-icon cursor-pointer" 
                          style="width: 36px; height: 36px" 
                          data-index="${index}">
-                    <img src="assets/delete.png" alt="Delete" 
+                    <img src="delete.png" alt="Delete" 
                          class="delete-icon cursor-pointer" 
                          style="width: 36px; height: 36px" 
                          data-index="${index}">

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TickIt-To_Do_App</title>
+    <link rel="stylesheet" href="./output.css">
+</head>
+<body class="">
+    <div class="container flex flex-col items-center  mt-20 max-w-full h-[39rem]">
+        <div class="stats-container flex p-7 rounded-2xl w-full max-w-md space-x-4 justify-between items-center mt-3">
+            <div class="details w-[100%]">
+                <h2 class="text-3xl font-semibold italic">Tick<span class="text-sky-500 ">It</span></h2>
+                <p class="text-md font-semibold ">To-do app</p>
+                <div id="progressBar" class="h-4 bg-blue-500 rounded-xl mt-3">
+                    <div id="progress" class="w-[50%] bg-teal-300 h-4 rounded-xl duration-300 ease-in"></div>
+                </div>
+            </div>
+            <div class="stats-number bg-sky-500 00 w-20 h-20 flex items-center justify-center rounded-full shrink-0">
+                <p class="numbers text-2xl italic font-bold">2 / 6</p>
+            </div>
+        </div>
+
+          <div class="flex mt-3 justify-between w-full max-w-md">
+            <form action="" class="flex gap-5">
+              <input type="text" id="taskInput" placeholder="Write your task here...." class="border rounded-md w-full px-19 py-2 text-xl focus:border-sky-500 focus:outline focus:outline-sky-500 mx-auto">
+              <button type="button" id="taskNew" class="bg-blue-500 text-white px-4 py-2 rounded-full hover:bg-violet-500 cursor-pointer text-xl">+</button>
+            </form>
+          </div>
+          
+        <ul id="taskList"></ul>
+    </div>
+
+    <script src="app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tsparticles/confetti@3.0.3/tsparticles.confetti.bundle.min.js"></script>
+</body>
+</html>

@@ -11,7 +11,7 @@ A simple and interactive To-Do List web app built with vanilla JavaScript that l
     📊 Progress Bar – Shows how many tasks are completed.
     🎉 Confetti Animation – Celebrate when all tasks are completed!
     
-🛠️ Built With HTML5,CSS3 and JavaScript (ES6+)
+🛠️ Built With HTML5,Tailwindcss and JavaScript (ES6+)
 
 🙌 Contributing
 Feel free to fork this repo, make improvements, and open a pull request. Contributions are always welcome!
